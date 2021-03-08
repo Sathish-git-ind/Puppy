@@ -1,0 +1,182 @@
+body{
+  font-family: monospace;
+}
+
+h1{
+  font-size: 5rem;
+  font-weight: bold;
+}
+
+h2{
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+h3{
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+#header{
+  background-color: #faf3e0;
+}
+
+#header p{
+  font-size: 3rem;
+}
+
+.navbar{
+  margin: 0 0 3rem 0;
+  padding: 0%;
+}
+
+.navbar-brand{
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.navmenu{
+  font-size: 1rem;
+  margin: 0 2rem;
+}
+
+.container-fluid{
+  padding: 3% 15% 3%;
+}
+
+.header-text{
+  margin-top: 6rem;
+}
+
+.caption{
+  font-size: 2rem;
+}
+
+.header-love{
+  color: #f25287;
+}
+
+/* Facilities */
+
+#facilities{
+  padding: 7% 15%;
+  text-align: center;
+}
+
+#facilities p{
+  font-size: 1.2rem;
+  text-align: justify;
+  margin-top: 30px;
+  color: #8f8f8f;
+}
+
+.facilities-col{
+  padding: 0% 3%;
+}
+
+.facilities-ico{
+  font-size: 1rem;
+  color: #b68973;
+  margin-bottom: 2rem;
+  display: inline-block;
+  width: 144px;
+}
+
+.facilities-ico:hover{
+  color: #677367;
+}
+
+#sales{
+  background-color: #eabf9f;
+  text-align: center;
+  padding: 3% 15%;
+}
+
+#sales h3{
+  margin: 0 auto;
+  width: 50%;
+  background-color: #b68973;
+  color: #000;;
+  font-size: 2rem;
+}
+
+#sales em{
+  color: white;
+  font-size: 2rem;
+  display: block;
+  margin-top: 20px;
+}
+
+.sales-heading{
+  border: solid;
+  border-radius: 20px;
+  border-color: #b68973;
+  box-shadow: 1px 1px 4px grey;
+}
+
+.sales-img{
+  width: 50%;
+  border-radius: 50px;
+  box-shadow: 1px 1px 5px grey;
+  margin-top: 2rem;
+}
+
+#donation{
+  padding: 7% 15%;
+  text-align: center;
+}
+
+#donation p{
+  font-size: 1.5rem;
+}
+
+.donation-heading{
+  margin-bottom: 3rem;
+}
+
+.thanks{
+  font-style: italic;
+  font-weight: normal;
+}
+
+#footer{
+  padding: 3% 15%;
+  background-color: #b68973;
+  color: white;
+  text-align: center;
+}
+
+#footer p{
+  font-size: 1rem;
+}
+
+@media (max-width: 1028px){
+  #header{
+    text-align: center;
+  }
+
+  .header-text{
+    margin-bottom: 2rem;
+  }
+
+  .facilities-col{
+    margin-bottom: 2rem;
+  }
+
+  #sales h3{
+    width: 40%;
+    font-size: 1rem;
+  }
+
+  #sales em{
+    font-size: 1rem;
+  }
+
+  .sales-img{
+    width: 70%;
+  }
+
+  .donation-col{
+    margin-bottom: 2rem;
+  }
+}
